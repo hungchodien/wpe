@@ -346,6 +346,16 @@ function codex_custom_init() {
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments','custom-fields' )
     );
     register_post_type('instagram',$argsI);
+    $labelsInter = array(
+        'name' => 'interior (name) ',
+        'singular_name' => 'interior (singular)'
+    );
+    $argsInter = array(
+        'labels' => $labelsInter,
+        'public' => true,
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments','custom-fields' )
+    );
+    register_post_type('interior ',$argsInter);
 
 
 }
