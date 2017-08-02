@@ -341,6 +341,9 @@
     .pdR15iPC{
         padding-right: 15px!important;
     }
+    .pdL15iPC{
+        padding-left: 15px!important;
+    }
     .w335iPC{
         width : 335px!important;
     }
@@ -423,6 +426,9 @@
 }
 .pd0i{
     padding: 0!important;
+}
+.mgL15i{
+    margin-left: 15px!important;
 }
 .mg0i{
     margin: 0!important;
@@ -637,7 +643,9 @@
     right: 2px;
     float: right;
 }
-
+.mgL15{
+    margin-left: 15px;
+}
 
 /**********************************************************************/
 

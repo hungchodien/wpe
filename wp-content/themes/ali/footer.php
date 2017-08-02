@@ -124,8 +124,9 @@
     /*************************************/
 </script>
 <script>
+
     jQuery(document).ready(function($){
-        $('#truongthanhhung').html('trương thanh hùng');
+
     });
 </script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/page/staff.js"></script>

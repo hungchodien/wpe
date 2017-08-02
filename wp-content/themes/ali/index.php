@@ -18,7 +18,6 @@
             </div>
             <div class="col-xs-12 col-md-4 pd0i mg0i w320iPC w100p" role="complementary">
                 <div class="pdL15iPC">
-                    hung
                     <?php get_template_part( 'sidebar' ); ?>
                 </div><!-- .widget-area -->
             </div><!-- #secondary -->
