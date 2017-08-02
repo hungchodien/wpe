@@ -56,15 +56,15 @@
 
                         <div class="clear  fr">
 
-                            <a class=""  href="<?php echo get_option('home'); ?>/" >
+                            <div class="header-logo-left"   >
                                 <p class="blocki displayNoneLTL displayNoneSTL displayNoneLMB displayNoneSMB">に感謝致しまして、夏の感謝祭を実施 PC に感謝致しまして、</p>
                                 <img class="blocki displayNoneLTL displayNoneSTL displayNoneSMB displayNoneLMB" src="<?php echo get_bloginfo('template_directory'); ?>/img/head-tel-pc.png" alt="<?php bloginfo( 'name' ); ?>" title="" />
                                 <img class="blocki displayNonePC " src="<?php echo get_bloginfo('template_directory'); ?>/img/head-tel-mobile.png" alt="<?php bloginfo( 'name' ); ?>" title="" />
-                                <a class="blocki btn overHiddeni pd0i">
+                                <a class="blocki btn overHiddeni pd0i" href="https://cs.appnt.me/facebook/page_tab/855?stand_alone=1">
                                     <img class=" h30iPC mgT-30iPC h30iLTL mgT-30iLTL  w100p hAutoi displayNoneLTL displayNoneSTL displayNoneSMB displayNoneLMB" src="<?php echo get_bloginfo('template_directory'); ?>/img/head-button-reservation-pc.png" alt="<?php bloginfo( 'name' ); ?>" title="" />
                                     <img class="displayNonePC" src="<?php echo get_bloginfo('template_directory'); ?>/img/button-reservation-mobile.png" alt="<?php bloginfo( 'name' ); ?>" title="" />
                                 </a>
-                            </a>
+                            </div>
                         </div>
 
                         <div class="mobile R-menu-custom logo-menu-top">

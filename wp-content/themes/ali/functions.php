@@ -333,7 +333,7 @@ function codex_custom_init() {
         //'has_archive' => true,
         //'hierarchical' => false,
         //'menu_position' => null,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' , 'custom-fields')
     );
     register_post_type('nguoidung',$args);
     $labelsI = array(
@@ -343,9 +343,10 @@ function codex_custom_init() {
     $argsI = array(
         'labels' => $labelsI,
         'public' => true,
-        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments','custom-fields' )
     );
     register_post_type('instagram',$argsI);
+
 
 }
 add_action( 'init', 'codex_custom_init' );

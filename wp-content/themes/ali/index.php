@@ -16,8 +16,9 @@
                     <?php include_once ('content-left-index.php');?>
                 </div>
             </div>
-            <div class="col-xs-12 col-md-4 pd0i mg0i w335iPC w100p" role="complementary">
+            <div class="col-xs-12 col-md-4 pd0i mg0i w320iPC w100p" role="complementary">
                 <div class="pdL15iPC">
+                    hung
                     <?php get_template_part( 'sidebar' ); ?>
                 </div><!-- .widget-area -->
             </div><!-- #secondary -->
@@ -46,7 +47,7 @@
                                     <div>
                                         <p class="date"><?php echo get_the_date('d/m/Y'); ?></p>
                                     </div>
-                                    <div class="loop_news_excerpt"><?php the_excerpt(); ?></div>
+                                    <div class="loop_news_excerpt"><?php the_excerpt(); the_meta();?></div>
                                 </div>
                             </div>
                         </article>
@@ -66,7 +67,7 @@
                     ?>
                 </div>
             </div>
-            <div id="secondary" class="sidebar-container w320 fr" role="complementary">
+            <div id="secondary" class="sidebar-container w320 fr psRelative" role="complementary">
                 <div class="widget-area">
                     <?php get_template_part( 'sidebar' ); ?>
                 </div><!-- .widget-area -->

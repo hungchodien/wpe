@@ -213,6 +213,9 @@
     .w48pSTL{
         width: 48%;
     }
+    .w48piSTL{
+        width: 48%!important;
+    }
     .mgT40STL{
         margin-top: 40px;
     }
@@ -338,6 +341,9 @@
     .w100pPC{
         width: 100%;
     }
+    .w100piPC{
+        width: 100%!important;
+    }
     .w845iPC{
         width: 845px!important;
     }
@@ -350,6 +356,9 @@
     .pdLR0iPC{
         padding-left: 0!important;
         padding-right: 0!important;
+    }
+    .w320iPC{
+        width: 320px!important;
     }
     .pdTB10iPC{
         padding-top: 10px!important;
@@ -526,14 +535,21 @@
 .twitter{
     margin: 0 auto;
     max-height: 400px!important;
-    overflow: hidden;
+    overflow: auto;
     display: block;
     padding-top: 4px;
     margin-top: 4px;
+    border : 1px solid #222222;
 }
 #post .except p{
     font-weight: 600!important;
     color: black;
+}
+.concept h2 {
+    font-weight: bold!important;
+    color: #222!important;
+    font-size: 26px!important;
+    padding-top: 20px;
 }
 /*fix bootstrap */
 .navbar-default-custom{
@@ -553,7 +569,15 @@
 #main-nav {
     margin-left: 10px!important;
 }
-
+.psRelative{
+    position: relative;
+}
+.psAbsolute{
+    position: absolute;
+}
+.right2{
+    right: 2px;
+}
 .navbar-default-custom li:hover{
     padding-left: 10px;
 }
@@ -648,4 +672,7 @@
 }
 .pdLi10 li{
     padding-right: 30px!important;
+}
+a.header-logo-left:hover{
+    color : #191919;
 }
