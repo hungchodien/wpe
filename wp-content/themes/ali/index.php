@@ -41,7 +41,7 @@
                             <div class="fr w670PC"> <!--col-xs-8-->
                                 <div class="clear">
                                     <div>
-                                        <h4 class="loop_news_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+                                        <h4 class="loop_news_title"><a href="<?php the_permalink(); ?>"><?php the_title();  ?></a></h4>
                                     </div>
                                     <div>
                                         <p class="date"><?php echo get_the_date('d/m/Y'); ?></p>

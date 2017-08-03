@@ -356,6 +356,16 @@ function codex_custom_init() {
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments','custom-fields' )
     );
     register_post_type('interior ',$argsInter);
+    $labelsAccess = array(
+        'name' => 'access (name) ',
+        'singular_name' => 'access (singular)'
+    );
+    $argsAccess = array(
+        'labels' => $labelsAccess,
+        'public' => true,
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments','custom-fields' )
+    );
+    register_post_type('access ',$argsAccess);
 
 
 }

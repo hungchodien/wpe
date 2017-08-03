@@ -22,7 +22,7 @@
                             global  $hung;
                             $thumbnail = get_the_post_thumbnail_url(); $hung = $thumbnail;
                             ?>
-                            <div class="<?php echo ($key%2==0?'chan1':'le1'); ?> bgImgNoRepeat bgImgCover h410 w48p thumbnail"
+                            <div class="<?php echo ($key%2==0?'chan1':'le1'); ?> bgImgNoRepeat bgImgCover w48p thumbnail"
                                  style="background-image: url('<?php echo $thumbnail?>');"
                                   data-image-id="" data-toggle="modal" data-url = "<?php echo $thumbnail?>"
                                   data-target=".image-gallery<?php echo $key; ?>"
@@ -62,6 +62,13 @@
     .modal-body{
         padding: 4px!important;
         border-radius: 0!important;
+    }
+    .modal-body button{
+        position: absolute!important;
+        background-color: white!important;
+        right: 4px!important;
+        top: -20px!important;
+        opacity: 1;
     }
 </style>
     <div class="mgB50PC mgB0SMB mgB0LMB mgB0STL mgB0LTL">&nbsp;</div>

@@ -599,9 +599,7 @@
 .left2{
     left:  2px;
 }
-.navbar-default-custom li:hover{
-    padding-left: 10px;
-}
+
 .nav>li>a:hover{
     background-color: transparent!important;
 }

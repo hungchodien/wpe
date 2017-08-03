@@ -126,7 +126,15 @@
 <script>
 
     jQuery(document).ready(function($){
+        $(".interior-group .thumbnail").height(parseInt($(".interior-group .thumbnail").css("width" ),10)/2);
+        $(".interior-group .thumbnail").height($(".interior-group .thumbnail").css("width"));
+        $(".interior-group .thumbnail").height($(".interior-group .thumbnail").css("width"));
+        $( window ).resize(function() {
+            $(".interior-group .thumbnail").height(parseInt($(".interior-group .thumbnail").css("width" ),10)/2);
+            $(".interior-group .thumbnail").height($(".interior-group .thumbnail").css("width"));
+            $(".interior-group .thumbnail").height($(".interior-group .thumbnail").css("width"));
 
+        });
     });
 </script>
 <script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/page/staff.js"></script>

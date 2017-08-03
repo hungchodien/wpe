@@ -16,7 +16,8 @@
                     <div class=" inlineBlocki fr displayNonePC pdL20SMB pdR20LTL"> <!--col-xs-8 670-->
                         <div class="">
                             <div>
-                                <div class="h4"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
+                                <div class="h4"><a href="<?php the_permalink(); ?>"><?php the_title(); ?>
+                                        </a></div>
                             </div>
                             <div>
                                 <p class="date"><?php echo get_the_date('F j, Y '); ?></p>
