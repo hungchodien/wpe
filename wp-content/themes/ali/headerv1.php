@@ -48,34 +48,15 @@
         <div class="header_top grau_bg">
 
             <div class="content_body head_content">
-                <div class="container w1180iPC w100p pdLR0iPC pdTB20iPC pdLR0iLTL pdTB10iLTL psRelative">
+                <div class="container clear w1180iPC w100p pdLR0iPC pdTB20iPC pdLR0iLTL pdTB10iLTL ">
 
-                    <div class="minW80 minH80 psRelative">
-                        <a href="<?php echo get_option('home');?>/"
-                                class="displayNoneSMB displayNoneLMB displayNoneSTL displayNoneLTL mgTBAuto psAbsolute">
-                            <img src="<?php echo get_bloginfo('template_directory'); ?>/img/logo.png" alt="<?php bloginfo( 'name' ); ?>" />
-                        </a>
-                        <a href="<?php echo get_option('home');?>/" class="displayNonePC mgTBAuto">
-                            <img class="w30p"
-                                    src="<?php echo get_bloginfo('template_directory'); ?>/img/logo.png"
-                                 alt="<?php bloginfo( 'name' ); ?>" />
+                    <div class="fl w40piSMB">
+                        <a href="<?php echo get_option('home'); ?>/" class="">
+                            <img class="img_logo w76piSMB " src="<?php echo get_bloginfo('template_directory'); ?>/img/logo.png" alt="<?php bloginfo( 'name' ); ?>" title="" />
                         </a>
                     </div>
 
-
-
-
-
-
-
-
-
-                    <div class="w40piSMB">
-                        <a href="<?php echo get_option('home'); ?>/" class="w40piSMB">
-                            <img class="w40piSMB" src="<?php echo get_bloginfo('template_directory'); ?>/img/logo.png" alt="<?php bloginfo( 'name' ); ?>" title="" />
-                        </a>
-                    </div>
-                    <div class="w60piSMB psAbsolute top20PC top2LTL top2STL top2LMB top2SMB right0">
+                    <div class="fr w60piSMB">
 
                         <div class="clear  fr">
 
@@ -103,6 +84,7 @@
                         </div>
 
                     </div><!--nav_header_r-->
+
                 </div>
             </div>
         </div>

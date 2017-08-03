@@ -2,27 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ecfaeb26-7264-4663-a451-c3aa6f79fd6f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/ali/page-recruit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-01-150x150.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-01-150x150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-01-300x121.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-01-300x121.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-01-768x311.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-01-768x311.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-02-150x150.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-02-150x150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-02-300x120.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-02-300x120.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-02-768x307.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-02-768x307.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-03-150x150.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-03-150x150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-03-300x118.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-03-300x118.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-03-768x303.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-03-768x303.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-04-150x150.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-04-150x150.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-04-300x121.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-04-300x121.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-04-768x311.png" afterPath="$PROJECT_DIR$/wp-content/uploads/2017/08/concept-04-768x311.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/form_cruit/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/ali/headerv1.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/ali/testwp (1).sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config.php" afterPath="$PROJECT_DIR$/wp-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/form/index.php" afterPath="$PROJECT_DIR$/wp-content/plugins/form/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ali/content-left-index.php" afterPath="$PROJECT_DIR$/wp-content/themes/ali/content-left-index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ali/css/customstyle.css" afterPath="$PROJECT_DIR$/wp-content/themes/ali/css/customstyle.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ali/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/ali/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ali/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/ali/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ali/page-voice.php" afterPath="$PROJECT_DIR$/wp-content/themes/ali/page-voice.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wp-content/themes/ali/page-stylee.php" afterPath="$PROJECT_DIR$/wp-content/themes/ali/page-stylee1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ali/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/ali/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ali/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/ali/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/ali/page-recruit.php" afterPath="$PROJECT_DIR$/wp-content/themes/ali/page-recruit.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,92 +23,41 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="customstyle.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/css/customstyle.css">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="123" column="33" lean-forward="false" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
+            <state relative-caret-position="373">
+              <caret line="54" column="118" lean-forward="false" selection-start-line="54" selection-start-column="118" selection-end-line="54" selection-end-column="118" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/footer.php">
+      <file leaf-file-name="testwp (1).sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/testwp (1).sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="131" column="109" lean-forward="false" selection-start-line="131" selection-start-column="109" selection-end-line="131" selection-end-column="109" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-voice.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-voice.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1019">
-              <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/form/index.php">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="105" column="41" lean-forward="false" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
-              <folding>
-                <marker date="1501740237878" expanded="true" signature="280:384" ph="..." />
-                <marker date="1501740237878" expanded="true" signature="290:322" ph="{...}" />
-                <marker date="1501740237878" expanded="true" signature="338:372" ph="{...}" />
-                <marker date="1501740237878" expanded="true" signature="478:1391" ph="..." />
-                <marker date="1501740237878" expanded="true" signature="487:643" ph="..." />
-                <marker date="1501740237878" expanded="true" signature="652:801" ph="..." />
-                <marker date="1501740237878" expanded="true" signature="810:953" ph="..." />
-                <marker date="1501740237878" expanded="true" signature="962:1084" ph="..." />
-                <marker date="1501740237878" expanded="true" signature="1093:1224" ph="..." />
-                <marker date="1501740237878" expanded="true" signature="1233:1378" ph="..." />
-                <marker date="1501740237878" expanded="true" signature="1340:1351" ph="..." />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/functions.php">
+      <file leaf-file-name="content-left-index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/content-left-index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="387" column="31" lean-forward="false" selection-start-line="387" selection-start-column="24" selection-end-line="387" selection-end-column="31" />
-              <folding>
-                <marker date="1501740929973" expanded="true" signature="10903:10975" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-                <marker date="1501740929973" expanded="true" signature="11131:11193" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-recruit.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-recruit.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-              <folding>
-                <element signature="e#863#935#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page-access.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-access.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="306">
+              <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -140,6 +78,9 @@
       <find>pdR15iPC</find>
       <find>a.</find>
       <find>style</find>
+      <find>bg</find>
+      <find>border</find>
+      <find>stylee</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,13 +92,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-staff.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-concept.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/sidebar.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ali/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-interior.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ali/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/access" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-access.php" />
         <option value="$PROJECT_DIR$/wp-config.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ali/content-left-index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-style.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-stylee.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-kieudang.php" />
@@ -166,9 +104,13 @@
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-voice.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/form/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ali/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/ali/css/customstyle.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/ali/page-recruit.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/form_cruit/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ali/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ali/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ali/css/customstyle.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ali/content-left-index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/ali/header.php" />
       </list>
     </option>
   </component>
@@ -280,6 +222,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\xampp\htdocs\wpe\wp-content\themes\ali" />
+      <recent name="F:\xampp\htdocs\wpe\wp-content\plugins\form_cruit" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -376,12 +319,12 @@
       <workItem from="1501637137673" duration="5292000" />
       <workItem from="1501654127110" duration="16164000" />
       <workItem from="1501724035952" duration="600000" />
-      <workItem from="1501724773218" duration="15267000" />
+      <workItem from="1501724773218" duration="23830000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37323000" />
+    <option name="totallyTimeSpent" value="45886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
@@ -454,7 +397,7 @@
         <state relative-caret-position="986">
           <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
           <folding>
-            <element signature="e#1117#1174#0#HTML" expanded="true" />
+            <element signature="e#1117#1174#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -496,7 +439,7 @@
         <state relative-caret-position="986">
           <caret line="58" column="18" lean-forward="false" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
           <folding>
-            <element signature="e#1117#1174#0#HTML" expanded="true" />
+            <element signature="e#1117#1174#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -588,14 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/access">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -604,26 +539,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="46" column="56" lean-forward="false" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/content-left-index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="34" lean-forward="false" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -652,13 +571,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-stylee1.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-interior.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="45" column="46" lean-forward="false" selection-start-line="45" selection-start-column="46" selection-end-line="45" selection-end-column="46" />
+        <state relative-caret-position="232">
+          <caret line="24" column="110" lean-forward="false" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="110" />
           <folding>
-            <element signature="e#1132#1207#0#HTML" expanded="true" />
-            <element signature="e#2405#2480#0#HTML" expanded="true" />
+            <element signature="e#1117#1174#0#HTML" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="387" column="31" lean-forward="false" selection-start-line="387" selection-start-column="24" selection-end-line="387" selection-end-column="31" />
+          <folding>
+            <marker date="1501740929973" expanded="true" signature="10903:10975" ph="SELECT post_... ${$wpdb-&gt;posts}" />
+            <marker date="1501740929973" expanded="true" signature="11131:11193" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-access.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="97" lean-forward="true" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/form_cruit/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="106" column="27" lean-forward="false" selection-start-line="106" selection-start-column="27" selection-end-line="106" selection-end-column="27" />
+          <folding>
+            <element signature="e#6#181#0#PHP" expanded="true" />
+            <marker date="1501750265344" expanded="true" signature="234:338" ph="..." />
+            <marker date="1501750265344" expanded="true" signature="244:276" ph="{...}" />
+            <marker date="1501750265344" expanded="true" signature="292:326" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -683,55 +633,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/footer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-stylee1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="131" column="109" lean-forward="false" selection-start-line="131" selection-start-column="109" selection-end-line="131" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-interior.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="24" column="110" lean-forward="false" selection-start-line="24" selection-start-column="106" selection-end-line="24" selection-end-column="110" />
+        <state relative-caret-position="186">
+          <caret line="51" column="74" lean-forward="false" selection-start-line="51" selection-start-column="62" selection-end-line="51" selection-end-column="74" />
           <folding>
-            <element signature="e#1117#1174#0#HTML" expanded="true" />
+            <element signature="e#2405#2480#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-access.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-recruit.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="387" column="31" lean-forward="false" selection-start-line="387" selection-start-column="24" selection-end-line="387" selection-end-column="31" />
+        <state relative-caret-position="543">
+          <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="47" />
           <folding>
-            <marker date="1501740929973" expanded="true" signature="10903:10975" ph="SELECT post_... ${$wpdb-&gt;posts}" />
-            <marker date="1501740929973" expanded="true" signature="11131:11193" ph="SELECT ID FR... ${$wpdb-&gt;posts}" />
+            <element signature="e#863#935#0#HTML" expanded="true" />
+            <element signature="e#1166#1192#0#HTML" expanded="true" />
+            <element signature="e#1253#1272#0#HTML" expanded="true" />
+            <element signature="e#1415#1434#0#HTML" expanded="true" />
+            <element signature="e#1582#1601#0#HTML" expanded="true" />
+            <element signature="e#1717#1759#0#HTML" expanded="true" />
+            <element signature="e#1943#1977#0#HTML" expanded="true" />
+            <element signature="e#2185#2203#0#HTML" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/css/customstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="123" column="33" lean-forward="false" selection-start-line="123" selection-start-column="33" selection-end-line="123" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-voice.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1019">
-          <caret line="60" column="34" lean-forward="false" selection-start-line="60" selection-start-column="34" selection-end-line="60" selection-end-column="34" />
+        <state relative-caret-position="425">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -740,13 +672,104 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/page-recruit.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="123" column="31" lean-forward="false" selection-start-line="123" selection-start-column="31" selection-end-line="123" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/headerv1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="53" column="76" lean-forward="false" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/css/customstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="514" column="9" lean-forward="false" selection-start-line="514" selection-start-column="1" selection-end-line="514" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/head-tel-mobile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/home_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/loading.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/head-tel-pc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/head-button-reservation-pc.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/close.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/bnt-search.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/img/button-reservation-mobile.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/content-left-index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="58" lean-forward="false" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="47" lean-forward="false" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="373">
-          <caret line="28" column="36" lean-forward="false" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="e#863#935#0#HTML" expanded="true" />
-          </folding>
+          <caret line="54" column="118" lean-forward="false" selection-start-line="54" selection-start-column="118" selection-end-line="54" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/ali/testwp (1).sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

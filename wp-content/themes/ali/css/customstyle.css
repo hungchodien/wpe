@@ -127,6 +127,9 @@
     #recruit .groupt_text p:first-child{
         padding-top: 10%!important;
     }
+    .top2SMB{
+        top: 2px;
+    }
 }
 @media screen and (min-width:500px) and (max-width:767px) {
     .taliLMB{
@@ -206,6 +209,9 @@
     #recruit .groupt_text p:first-child{
         padding-top: 10%!important;
     }
+    .top2LMB{
+        top: 2px;
+    }
 }
 @media screen and (min-width:768px) and (max-width:990px)  {
     .w40pSTL{
@@ -277,6 +283,9 @@
     }
     #recruit .groupt_text p:first-child{
         padding-top: 10%!important;
+    }
+    .top2STL{
+        top: 2px;
     }
 }
 @media screen and (min-width:991px) and (max-width:1200px)  {
@@ -357,6 +366,9 @@
     }
     #recruit .groupt_text p:first-child{
         padding-top: 10%!important;
+    }
+    .top2LTL{
+        top: 2px;
     }
 }
 @media only screen and (min-width: 1201px) {
@@ -448,6 +460,9 @@
     #recruit .groupt_text p:first-child{
         padding-top: 10%!important;
     }
+    .top20PC{
+        top: 20px;
+    }
 }
 #main-nav {
     display: table!important;
@@ -491,19 +506,50 @@
 .w49p{
     width: 49%;
 }
+.minW80{
+    min-width: 80px;
+}
+.minH80{
+    min-height: 80px;
+}
+.mgTBAuto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
 .w32p{
     width: 32%;
 }
+.top20{
+    top: 20px;
+}
+.right0{
+    right: 0;
+}
+/*.stylee0{*/
+    /*display: inline-block!important;*/
+/*}*/
+/*.stylee2{*/
+    /*display: inline-block!important;*/
+/*}*/
+/*.stylee1{*/
+    /*display: inline-block!important;*/
+/*}*/
 .stylee0{
-    display: inline-block!important;
+    position: absolute;
+    left: 0;
 }
 .stylee2{
-    display: inline-block!important;
+    position: absolute;
+    right: 0;
 }
 .stylee1{
-    display: inline-block!important;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
-
+.stylee-group{
+    position: relative;
+}
 .mg0{
     margin: 0;
 }
@@ -591,6 +637,10 @@
 .bg222{
     background-color: #222222;
 }
+.bgWhite{
+    background-color: white;
+}
+
 .bg444{
     background-color: #444;
 }

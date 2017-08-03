@@ -26,11 +26,23 @@ get_header();
                             <?php
                         }
                         ?>
-                        <div class="">
-
+                        <div class="" style="padding-top: 20px;">
+                            <input class="cBlack bgWhite " style="margin: 2px" value="<?php echo get_post_meta($post->ID, 'any_time' , true ); ?>" type="button">
+                            <input class="cBlack bgWhite " style="margin: 2px"  value="<?php echo get_post_meta($post->ID, 'Hair_stylist' , true ); ?>" type="button">
+                            <input class="cBlack bgWhite " style="margin: 2px"  value="<?php echo get_post_meta($post->ID, 'staff' , true ); ?>" type="button">
+                            <span style="margin: 2px; display: inline-block"><?php echo get_post_meta($post->ID, 'decription_btn_infor' , true ); ?> </span>
                         </div>
                     </div>
-
+                    <div class="voice-group" style="padding-left: 0!important;">
+                        <h1 class="cBlack">ENTRY</h1>
+                        <div>
+                            <p><?php echo get_post_meta($post->ID, 'ENTRY' , true) ;?></p>
+                            <p style="color: red">
+                                infor@tokio.com
+                            </p>
+                        </div>
+                    </div>
+                    <?php echo actionForm_cruit();?>
                 </div>
             </div>
             <div class="col-xs-12 col-md-4 pd0i mg0i w320iPC w335iPC w100p" role="complementary">

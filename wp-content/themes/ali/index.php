@@ -37,7 +37,6 @@
                             <div class="fl w150 h150"> <!--loop_news_thumbnail col-xs-4-->
                                 <a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('loop_thumb'); ?></a>
                             </div>
-
                             <div class="fr w670PC"> <!--col-xs-8-->
                                 <div class="clear">
                                     <div>
