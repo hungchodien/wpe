@@ -117,7 +117,16 @@
     .mgB0SMB{
         margin-bottom: 0;
     }
-
+    #recruit .thumbnail2 p{
+        width: 100%;
+    }
+    #recruit .groupt_text p{
+        color: black;font-size: 6px;
+        padding-left: 10px;
+    }
+    #recruit .groupt_text p:first-child{
+        padding-top: 10%!important;
+    }
 }
 @media screen and (min-width:500px) and (max-width:767px) {
     .taliLMB{
@@ -187,6 +196,16 @@
     .mgB0LMB{
         margin-bottom: 0;
     }
+    #recruit .thumbnail2 p{
+        width: 100%;
+    }
+    #recruit .groupt_text p{
+        color: black;font-size: 12px;
+        padding-left: 10px;
+    }
+    #recruit .groupt_text p:first-child{
+        padding-top: 10%!important;
+    }
 }
 @media screen and (min-width:768px) and (max-width:990px)  {
     .w40pSTL{
@@ -249,7 +268,16 @@
     .mgB0STL{
         margin-bottom: 0;
     }
-
+    #recruit .thumbnail2 p{
+        width: 100%;
+    }
+    #recruit .groupt_text p{
+        color: black;font-size: 16px;
+        padding-left: 10px;
+    }
+    #recruit .groupt_text p:first-child{
+        padding-top: 10%!important;
+    }
 }
 @media screen and (min-width:991px) and (max-width:1200px)  {
 
@@ -320,7 +348,16 @@
     .mgB0LTL{
         margin-bottom: 0;
     }
-
+    #recruit .thumbnail2 p{
+        width: 100%;
+    }
+    #recruit .groupt_text p{
+        color: black;font-size: 16px;
+        padding-left: 10px;
+    }
+    #recruit .groupt_text p:first-child{
+        padding-top: 10%!important;
+    }
 }
 @media only screen and (min-width: 1201px) {
     .w20pPC{
@@ -401,7 +438,16 @@
     .mgB50PC{
         margin-bottom: 50px;
     }
-
+    #recruit .thumbnail2 p{
+        width: 100%;
+    }
+    #recruit .groupt_text p{
+        color: black;font-size: 16px;
+        padding-left: 10px;
+    }
+    #recruit .groupt_text p:first-child{
+        padding-top: 10%!important;
+    }
 }
 #main-nav {
     display: table!important;
@@ -444,6 +490,18 @@
 }
 .w49p{
     width: 49%;
+}
+.w32p{
+    width: 32%;
+}
+.stylee0{
+    display: inline-block!important;
+}
+.stylee2{
+    display: inline-block!important;
+}
+.stylee1{
+    display: inline-block!important;
 }
 
 .mg0{
@@ -527,6 +585,9 @@
 .cwhite{
     color: white;
 }
+.w30pi{
+    width : 30%!important;
+}
 .bg222{
     background-color: #222222;
 }
@@ -559,6 +620,19 @@
 #post .except p{
     font-weight: 600!important;
     color: black;
+}
+.voice h1{
+    font-weight: 900!important;
+    font-size: 20px;
+    color: black!important;
+}
+.voice h2{
+    font-weight: 400!important;
+    font-size: 18px;
+    color: black!important;
+}
+.voice-group{
+    padding: 20px!important;
 }
 .concept h2 {
     font-weight: bold!important;
@@ -612,6 +686,9 @@
 }
 .r_style{
     padding-left: 10px!important;
+}
+button.voice-submit:hover{
+    background-color: #750303!important;
 }
 .menu-table ul li a{
     padding-left: 0!important;

@@ -129,10 +129,12 @@
         $(".interior-group .thumbnail").height(parseInt($(".interior-group .thumbnail").css("width" ),10)/2);
         $(".interior-group .thumbnail").height($(".interior-group .thumbnail").css("width"));
         $(".interior-group .thumbnail").height($(".interior-group .thumbnail").css("width"));
+        $(".interior-group .thumbnail2").height(parseInt($(".interior-group .thumbnail2").css("width" ),10)/2);
         $( window ).resize(function() {
             $(".interior-group .thumbnail").height(parseInt($(".interior-group .thumbnail").css("width" ),10)/2);
             $(".interior-group .thumbnail").height($(".interior-group .thumbnail").css("width"));
             $(".interior-group .thumbnail").height($(".interior-group .thumbnail").css("width"));
+            $(".interior-group .thumbnail2").height(parseInt($(".interior-group .thumbnail2").css("width" ),10)/2);
 
         });
     });

@@ -23,57 +23,47 @@ function tao_form(  ) {
 
     echo '
     <form action="' . $_SERVER['REQUEST_URI'] . '" method="post">
-    <div>
-    <label for="username">Username <strong>*</strong></label>
-    <input type="text" name="username" value="' . ( isset( $_POST['username'] ) ? $username : null ) . '">
-    </div>
-     
-    <div>
-    <label for="password">Password <strong>*</strong></label>
-    <input type="password" name="password" value="' . ( isset( $_POST['password'] ) ? $password : null ) . '">
-    </div>
-     
-    <div>
-    <label for="email">Email <strong>*</strong></label>
-    <input type="text" name="email" value="' . ( isset( $_POST['email']) ? $email : null ) . '">
-    </div>
-     
-    <div>
-    <label for="website">Website</label>
-    <input type="text" name="website" value="' . ( isset( $_POST['website']) ? $website : null ) . '">
-    </div>
-     
-    <div>
-    <label for="firstname">First Name</label>
-    <input type="text" name="fname" value="' . ( isset( $_POST['fname']) ? $first_name : null ) . '">
-    </div>
-     
-    <div>
-    <label for="website">Last Name</label>
-    <input type="text" name="lname" value="' . ( isset( $_POST['lname']) ? $last_name : null ) . '">
-    </div>
-     
-    <div>
-    <label for="nickname">Nickname</label>
-    <input type="text" name="nickname" value="' . ( isset( $_POST['nickname']) ? $nickname : null ) . '">
-    </div>
-     
-    <div>
-    <label for="bio">About / Bio</label>
-    <textarea name="bio">' . ( isset( $_POST['bio']) ? $bio : null ) . '</textarea>
-    </div>
-    <input type="submit" name="submit" value="Register"/>
+
+<table>
+    <tr>
+        <td class="w30pi"><label for="name1"> <strong>お名前*</strong></label></td>
+        <td><input type="text" name="name1"  class="w100p"></td>
+    </tr>
+    <tr>
+        <td><label for="name2">Password <strong>かな*</strong></label></td>
+        <td><input type="text" name="name2"  class="w100p"></td>
+    </tr>
+    <tr>
+        <td><label for="tel">Email <strong>携帯電話*</strong></label></td>
+        <td><input type="text" name="tel" class="w100p"></td>
+    </tr>
+    <tr>
+        <td><label for="sns">SNS ID</label></td>
+        <td><input type="text" name="sns"  class="w100p"></td>
+    </tr>
+    <tr>
+        <td><label for="email">e-Mailアドレス*</label></td>
+        <td><input type="email" name="email" class="w100p"></td>
+    </tr>
+    <tr>
+        <td><label for="mesage">お問合せ内容*</label></td>
+        <td><textarea name="mesage" rows="3" style="width: 100%"></textarea></td>
+    </tr>
+   
+</table>
+<input type="submit" name="submit" value="save" class="
+" style = "color: white; background-color: #c10c0c;"/>
     </form>
     ';
 }
 function kiemtraformat( )
-{   global $username, $password, $email;
-    global $reg_errors;
-    $reg_errors = new WP_Error;
-    if ( empty( $username ) || empty( $password ) || empty( $email ) ) {
-        $reg_errors->add('field', 'lỗi nhập liệu');
+{   global $name1, $name2 , $email;
+    global $loi;
+    $loi = new WP_Error;
+    if ( empty( $name1 ) || empty( $name2 ) || empty( $email ) ) {
+        $loi->add('field', 'lỗi nhập liệu');
     }
-    if ( is_wp_error( $reg_errors ) ) {
+    if ( is_wp_error( $loi ) ) {
         return 0;
     }else{
         return 1;
@@ -88,35 +78,45 @@ function actionForm() {
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     if ( isset($_POST['submit'] ) ) {
         // sanitize user form input
-        global $username, $password, $email, $website, $first_name, $last_name, $nickname, $bio , $reg_errors;
-        $username   =   sanitize_user( $_POST['username'] );
-        $password   =   esc_attr( $_POST['password'] );
-        $email      =   sanitize_email( $_POST['email'] );
-        $website    =   esc_url( $_POST['website'] );
-        $first_name =   sanitize_text_field( $_POST['fname'] );
-        $last_name  =   sanitize_text_field( $_POST['lname'] );
-        $nickname   =   sanitize_text_field( $_POST['nickname'] );
-        $bio        =   esc_textarea( $_POST['bio'] );
+        global $name1, $name2, $tel, $sns, $email, $message,$loi;
+        $name1   =   sanitize_text_field( $_POST['name1'] );
+        $name2   =   sanitize_text_field( $_POST['name2'] );
+        $tel      =   sanitize_email( $_POST['tel'] );
+        $sns    =   sanitize_text_field( $_POST['sns'] );
+        $email =   sanitize_text_field( $_POST['email'] );
+        $message        =   esc_textarea( $_POST['mesage'] );
         kiemtraformat();
         // call @function themdulieu to create the user
         // only when no WP_error is found
-        if (  count( $reg_errors->get_error_messages() ) == 0) {
-            $userdata = array(
-                'user_login'    =>   $username,
-                'user_email'    =>   $email,
-                'user_pass'     =>   $password,
-                'user_url'      =>   $website,
-                'first_name'    =>   $first_name,
-                'last_name'     =>   $last_name,
-                'nickname'      =>   $nickname,
-                'description'   =>   $bio,
+        if (  count( $loi->get_error_messages() ) == 0) {
+            $data_voice = array(
+                'name1'    =>   $name1,
+                'name2'    =>   $name2,
+                'tel'     =>   $tel,
+                'sns'      =>   $sns,
+                'email'    =>   $email,
+                'message'     =>   $message
             );
-            $user = wp_insert_user( $userdata );
-            echo "<div>bạn vừa insert vào db 1 post voice có id : $user</div>";
+            ///$user = wp_insert_user( $userdata );
+            //var_dump($data_voice);
+
+            $id = wp_insert_post(array(
+                'post_type' => 'voice',
+                'post_title' => $name1." send ".$name2,
+                'post_status' => 'publish',
+                'post_content' => $name1."   -  ".
+                    $name2."   -  ".
+                    $tel."   -  ".
+                    $sns."   -  ".
+                    $email."   -  ". $message
+            ));
+            echo "banj ddax insert vaof voice mowsi cos id : ".$id;
+        }else {
+            echo "lỗi form";
         }
-    }else {
-        tao_form();
     }
+    tao_form();
+
     ///////////////////////////////////////////////////////////////////////////////////////////////////////////
     return ob_get_clean();
 }

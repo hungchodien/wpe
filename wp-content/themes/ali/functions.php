@@ -366,6 +366,26 @@ function codex_custom_init() {
         'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments','custom-fields' )
     );
     register_post_type('access ',$argsAccess);
+    $labelsVoid = array(
+        'name' => 'voice (name) ',
+        'singular_name' => 'voice (singular)'
+    );
+    $argsvoice = array(
+        'labels' => $labelsVoid,
+        'public' => true,
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments','custom-fields' )
+    );
+    register_post_type('voice ',$argsvoice);
+    $labelsRECRUIT = array(
+        'name' => 'RECRUIT (name) ',
+        'singular_name' => 'RECRUIT (singular)'
+    );
+    $argsRECRUIT = array(
+        'labels' => $labelsRECRUIT,
+        'public' => true,
+        'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments','custom-fields' )
+    );
+    register_post_type('recruit ',$argsRECRUIT);
 
 
 }
